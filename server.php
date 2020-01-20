@@ -23,4 +23,23 @@ if (isset($_POST['save'])) {
     header('location: index.php');
 }
 
-?>
+
+if (isset($_POST['update'])) {
+    $id = $_POST['id'];
+    $name = $_POST['name'];
+    $description = $_POST['description'];
+
+    mysqli_query($db, "UPDATE phpcrud.developer SET name='$name', description='$description' WHERE id=$id");
+    $_SESSION['message'] = "Developer updated!"; 
+    header('location: index.php');
+}
+
+if (isset($_GET['del'])) {
+$id = $_GET['del'];
+mysqli_query($db, "DELETE FROM phpcrud.developer WHERE id=$id");
+$_SESSION['message'] = "Developer deleted!"; 
+header('location: index.php');
+}
+
+
+$results = mysqli_query($db, "SELECT * FROM phpcrud.developer");
