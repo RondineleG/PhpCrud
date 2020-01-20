@@ -58,6 +58,10 @@ if (isset($_GET['edit'])) {
 
 
 <form method="post" action="server.php" >
+// newly added field
+<input type="hidden" name="id" value="<?php echo $id; ?>">
+
+// modified form fields
 	<div class="input-group">
 		<label>Name</label>
 		<input type="text" name="name" value="<?php echo $name; ?>">
