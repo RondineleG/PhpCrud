@@ -2,7 +2,7 @@
 <html>
 <head>
   <title>Cread, Update, Delete PHP MySQL</title>
-  <link rel="stylesheet" type="text/css" href="/assets/css/style">
+  <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
 </head>
 <body>
 
