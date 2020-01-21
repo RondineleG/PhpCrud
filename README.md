@@ -2,4 +2,4 @@
 
 ## Demo project
 
-## http://phpcrud.gear.host/index.php
+## http://phpcrud.gear.host
