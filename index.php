@@ -21,7 +21,7 @@ include('server.php');
 
     <?php $results = mysqli_query($db, "SELECT * FROM phpcrud.developer"); ?>
     <div class="title">
-        <h1>CRUD: PHP and MySQL </h1>
+        <h1>CRUD: PHP, CSS and MySQL </h1>
         <hr>
     </div>
     <form method="post" action="server.php">
