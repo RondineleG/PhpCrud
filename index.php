@@ -5,7 +5,7 @@ include('server.php');
 <html>
 
 <head>
-    <title>CRUD: PHP and MySQL </title>
+    <title>CRUD: PHP, CSS and MySQL  </title>
     <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
 </head>
 
